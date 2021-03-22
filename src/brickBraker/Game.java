@@ -15,7 +15,7 @@ public void makeGame() {
     Gameplay gamePlay = new Gameplay(); 
 
     // Die Standardgrößen für das Spielfenster festlegen - erster Wert kommt auf 700 (800 ist ein Test für GitHub)
-    game.setBounds(10, 10, 800, 600);
+    game.setBounds(10, 10, 801, 600);
     game.setTitle("Breakout Ball"); 
     game.setResizable(false); 
     game.setVisible(true);
